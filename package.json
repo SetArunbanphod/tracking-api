@@ -1,0 +1,26 @@
+{
+  "name": "mywebapp",
+  "version": "1.0.0",
+  "description": "My project to use (node.js , express , mongodb and angular) mean stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Setthawut Arunbanphod",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "express-session": "*",
+    "firebase": "^5.7.0",
+    "http": "0.0.0",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "request": "^2.88.0"
+  }
+}
